@@ -6,15 +6,54 @@ Untuk menjaga agar sistem lebih terstruktur, dibutuhkan class koneksi khusus yan
 
 # PostgreSQL
 PostgreSQL adalah sistem manajemen basis data relasional open-source yang handal dan mendukung SQL standar. PostgreSQL sering digunakan untuk aplikasi berskala kecil hingga besar karena kestabilannya.
-
-# Java Database Connectivity (JDBC)
-JDBC adalah API yang memungkinkan Java berkomunikasi dengan database. Dengan JDBC, Java dapat melakukan operasi CRUD (Create, Read, Update, Delete).
-
-# JFrame Form (Swing)
-Swing adalah library GUI di Java yang memungkinkan pembuatan aplikasi desktop dengan komponen seperti tombol, tabel, dan form input.
-
-# Class Koneksi
-Class ini dibuat untuk mengatur koneksi aplikasi dengan database PostgreSQL agar lebih terstruktur dan mudah dipanggil kembali.
-
-# Class Exception
+1. Java Database Connectivity (JDBC)
+JDBC adalah API yang memungkinkan Java berkomunikasi dengan database. Dengan JDBC, Java dapat melakukan operasi CRUD (Create, Read, Update, Delete).  
+2. JFrame Form (Swing)
+Swing adalah library GUI di Java yang memungkinkan pembuatan aplikasi desktop dengan komponen seperti tombol, tabel, dan form input.  
+3. Class Koneksi
+Class ini dibuat untuk mengatur koneksi aplikasi dengan database PostgreSQL agar lebih terstruktur dan mudah dipanggil kembali.  
+4. Class Exception
 Exception adalah mekanisme penanganan error di Java. Dengan membuat class exception khusus, aplikasi bisa menampilkan pesan error yang lebih informatif tanpa langsung menutup program.
+
+# Struktur Frame "DATA MINUMAN"
+
+1. Judul Frame
+Label besar di bagian atas: DATA MINUMAN
+
+2. Form Input (Panel Kiri)  
+
+Label dan Text Field:
+
+ID : JTextField
+
+Nama : JTextField
+
+Kategori : JComboBox (isi: Kopi, Teh, Matcha, dll.)
+
+Harga : JTextField
+
+Ukuran : JComboBox (isi: S, M, L)
+
+3. Tombol Aksi (Panel Tengah-Bawah)  
+
+JButton Insert → menambah data baru ke database dan tabel.
+
+JButton Update → memperbarui data yang dipilih di tabel.
+
+JButton Delete → menghapus data yang dipilih di tabel.
+
+JButton Clear → mengosongkan semua field input.
+
+4. Tabel Data (Panel Kanan)  
+
+JTable dengan kolom:
+
+ID
+
+Nama
+
+Kategori
+
+Harga
+
+Ukuran
