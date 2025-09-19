@@ -15,45 +15,25 @@ Class ini dibuat untuk mengatur koneksi aplikasi dengan database PostgreSQL agar
 4. Class Exception
 Exception adalah mekanisme penanganan error di Java. Dengan membuat class exception khusus, aplikasi bisa menampilkan pesan error yang lebih informatif tanpa langsung menutup program.
 
-# Struktur Frame "DATA MINUMAN"
-
-1. Judul Frame
-Label besar di bagian atas: DATA MINUMAN
-
-2. Form Input (Panel Kiri)  
-
-Label dan Text Field:
-
-ID : JTextField
-
-Nama : JTextField
-
-Kategori : JComboBox (isi: Kopi, Teh, Matcha, dll.)
-
-Harga : JTextField
-
-Ukuran : JComboBox (isi: S, M, L)
-
-3. Tombol Aksi (Panel Tengah-Bawah)  
-
-JButton Insert → menambah data baru ke database dan tabel.
-
-JButton Update → memperbarui data yang dipilih di tabel.
-
-JButton Delete → menghapus data yang dipilih di tabel.
-
-JButton Clear → mengosongkan semua field input.
-
-4. Tabel Data (Panel Kanan)  
-
-JTable dengan kolom:
-
-ID
-
-Nama
-
-Kategori
-
-Harga
-
-Ukuran
+# Struktur Frame "DATA MINUMAN" :  
+1.	Judul Frame  
+•	Label besar di bagian atas: DATA MINUMAN  
+2.	Form Input (Panel Kiri)  
+•	Label dan Text Field:  
+•	ID : JTextField  
+•	Nama : JTextField  
+•	Kategori : JComboBox (isi: Kopi, Teh, Matcha, dll.)  
+•	Harga : JTextField  
+•	Ukuran : JComboBox (isi: S, M, L)  
+3.	Tombol Aksi (Panel Tengah-Bawah)
+•	JButton Insert → menambah data baru ke database dan tabel.  
+•	JButton Update → memperbarui data yang dipilih di tabel.  
+•	JButton Delete → menghapus data yang dipilih di tabel.  
+•	JButton Clear → mengosongkan semua field input.
+5.	Tabel Data (Panel Kanan)
+•	JTable dengan kolom:  
+•	ID  
+•	Nama  
+•	Kategori  
+•	Harga  
+•	Ukuran  
